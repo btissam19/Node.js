@@ -1,0 +1,5 @@
+const path=require('path')
+console.log(path.sep)
+console.log(path.join('/content','/subcontent','/file.js'))
+console.log(path.basename('/content/subcontent/file.js'))
+console.log(path.resolve(__dirname,'./content/subcontent/file.js'))
