@@ -2,11 +2,14 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "bassoma",
-  "main": "1-names.js",
+  "main": "1-expressfile.js",
   "scripts": {
     "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
