@@ -2,7 +2,7 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "bassoma",
-  "main": "1-expressfile.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon"
   },
