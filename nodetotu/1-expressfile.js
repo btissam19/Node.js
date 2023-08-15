@@ -1,6 +1,7 @@
 const express=require('express');
 const app =express()
 app.use(express.static('./navbar'))
+
 app.get('/',(req,res)=>{
     res.status(200).send("This the home page")
 })
